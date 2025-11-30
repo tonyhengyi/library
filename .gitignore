@@ -1,0 +1,30 @@
+# Obsidian 核心忽略规则
+.obsidian/plugins/            # 忽略插件文件（不同设备可重新安装）
+.obsidian/workspace*          # 忽略工作区状态（容易引起冲突）
+.obsidian/workspace-mobile*   # 移动端工作区状态
+.obsidian/core-plugins.json   # 核心插件配置（可选，如要同步则删除此行）
+.obsidian/core-plugins-mobile.json
+.obsidian/global-search.json  # 搜索索引
+.obsidian/hotkeys.json        # 快捷键配置（如要同步则删除）
+.obsidian/app.json            # 应用配置（如要同步则删除）
+.obsidian/appearance.json     # 外观配置（如要同步则删除）
+
+# 缓存和临时文件
+.obsidian/.trash/             # 回收站内容
+.obsidian/cache/              # 缓存文件
+.obsidian/icon.png            # 库图标（如要同步则删除）
+.thumbs/                      # 缩略图缓存
+.trash/                       # 根目录回收站
+
+# 系统文件
+.DS_Store                     # Mac 系统文件
+Thumbs.db                     # Windows 缩略图缓存
+desktop.ini                   # Windows 文件夹设置
+
+# 备份文件
+*.tmp                         # 临时文件
+*.bak                         # 备份文件
+*.log                         # 日志文件
+
+# 特定插件的缓存或数据
+.obsidian/plugins/obsidian-git/  # Git 插件数据（可选）
